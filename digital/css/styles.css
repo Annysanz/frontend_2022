@@ -1,0 +1,65 @@
+
+
+body{
+  background: url(../img/fondo_rosa.png) space fixed,
+              url(../img/background_header.jpg)  fixed;
+  background-size: 70% 100%;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+.indice {
+  height: 150px;
+  background-color: rgb(27, 28, 52);
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  margin: 0;
+}
+.info {
+  color: rgba(79, 79, 79, 0.687);
+  padding: 10px;
+  margin: 20px;
+  height: 20px;
+  margin-left: -50px;
+}
+.leer {
+  text-decoration: none;
+  color: rgb(27, 28, 52);
+  white-space: nowrap;
+  text-transform: uppercase;
+  border-radius: 40px;
+  box-shadow: 0 0 0 0.20rem rgb(27, 28, 52);
+  padding: 7px 19px  7px 19px;
+  background-color: #fff;
+  font-size: .9em;
+  position: relative;
+  margin: 15px;
+}
+.icono {
+  font-size: 3em;
+  /* margin: 15px; */
+}
+.subtitulo{
+    color: #fff;
+    margin-right: -25px;
+}
+.digitalise{
+    color: rgb(27, 28, 52);
+}
+.subtitulo, .digitalise{
+  font-size: 1.9em;
+
+}
+.ubicacion{
+  margin-left: -20px;
+}
+/* .container{
+    margin: 60px;
+} */
+p, .subtitulo, .digitalise{
+  margin-top: -30px;
+}
