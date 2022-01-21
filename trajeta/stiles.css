@@ -1,0 +1,23 @@
+.menu{
+    border-style: solid;
+    border-color: red;
+    margin: 60px;
+    width: 300px;
+    margin-top: -180px;
+}
+h1{
+    color: #fff;
+    background-color: red;
+    text-align: center;
+    margin: 0;
+}
+.linea{
+    background-color: #000;
+    border-style:inherit;
+    height: 150px;
+    width: 2px;
+    margin: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
