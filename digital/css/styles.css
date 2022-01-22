@@ -1,20 +1,9 @@
 body {
-  background: url(../img/fondo_rosa.png) space fixed,
-    url(../img/background_header.jpg) fixed;
-  background-size: 70% 100%;
+  background: url(../img/fondo_rosa.png) no-repeat fixed,
+    url(../img/background_header.jpg)  fixed;
+  background-size: 60% 90%;
   margin: 0;
   font-family: "Poppins", sans-serif;
-}
-.indice {
-  height: 160px;
-  background-color: rgb(27, 28, 52);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
 }
 .info {
   color: rgba(79, 79, 79, 0.687);
@@ -35,38 +24,43 @@ body {
   position: relative;
   margin: 15px;
 }
+.digitalise {
+  color: rgb(27, 28, 52);
+}
+.subtitulo {
+  color: #fff;
+}
+.indice {
+  height: 160px;
+  background-color: rgb(27, 28, 52);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 .icono {
   font-size: 4em;
   padding-right: 10px;
 }
-.subtitulo {
-  color: #fff;
-  /* margin-top: -25px; */
-}
-.digitalise {
-  color: rgb(27, 28, 52);
-}
 .subtitulo,
 .digitalise {
   top: 10px;
-  /* margin-left: 10px; */
+  padding: 1px;
 }
 .ubicacion {
   margin-right: -190px;
 }
-.container {
-  margin: 60px;
+.experiencia {
+  margin-right: -302px;
 }
-.subtitulo,
-.digitalise {
-  padding-left: -10px;
-  font-size: 2rem;
+.usuario {
+  margin-right: -245px;
 }
 footer {
   width: 100%;
-}
-.usuario {
-  margin-right: -210px;
 }
 .menu{
   background: #fff;
@@ -90,4 +84,6 @@ footer {
   .menu li:hover{
   background-color:#fff;
   }
-  
+  .container {
+    margin: 60px;
+  }
