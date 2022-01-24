@@ -41,26 +41,22 @@ height: 70px;
   color: rgba(79, 79, 79, 0.687);
   padding-top: 30px;
   margin: 90px;
-  
 }
 .subtitulo,
 .digitalise {
   top: 10px;
 }
  .ubicacion {
-margin-left: -12px;}
-.experiencia {
-margin-left: -40px;} 
-.usuario {
-margin-left: -35px;}
-footer { 
-  width: 100%;
+margin-left: -12px;
 }
+.experiencia, .usuario {
+margin-left: -35px;
+} 
 .menu{
   background: #fff;
   float: right;
   margin-right: 50px;
-
+  margin: 70px;
 }
 .menu a{
     text-decoration:none;
@@ -75,15 +71,16 @@ footer {
   text-transform: uppercase;
   margin-top: 10px;
   }
-  .menu li:hover{
-  background-color:#fff;
-  }
-  .container {
-    margin: 90px;
+  .container{
+    margin: 60px;
   }
  .boton{
    padding-top: 40px;
  }
- .empresa{
-   padding-top: 40px;
- }
+.cantidades{
+  margin-left: 10px;
+}
+.logo{
+  margin-left: 115px;
+  margin-top: 80px;
+}
