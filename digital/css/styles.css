@@ -4,12 +4,6 @@ body {
   margin: 0;
   font-family: "Poppins", sans-serif;
 }
-.info {
-  color: rgba(79, 79, 79, 0.687);
-  padding: 10px;
-  margin: 20px;
-  height: 20px;
-}
 .leer {
   text-decoration: none;
   color: rgb(27, 28, 52);
@@ -21,7 +15,6 @@ body {
   background-color: #fff;
   font-size: 0.9em;
   position: relative;
-  margin: 15px;
 }
 .digitalise {
   color: rgb(27, 28, 52);
@@ -29,7 +22,7 @@ body {
 .subtitulo {
   color: #fff;
 }
-.indice {
+.indice{
   height: 160px;
   background-color: rgb(27, 28, 52);
   display: flex;
@@ -41,24 +34,26 @@ body {
   width: 100%;
 }
 .icono {
-  font-size: 4em;
-  padding-right: 10px;
+width: 65px;
+height: 70px;
+}
+.info {
+  color: rgba(79, 79, 79, 0.687);
+  padding-top: 30px;
+  margin: 90px;
+  
 }
 .subtitulo,
 .digitalise {
   top: 10px;
-  padding: 1px;
 }
-.ubicacion {
-  margin-right: -190px;
-}
+ .ubicacion {
+margin-left: -12px;}
 .experiencia {
-  margin-right: -302px;
-}
+margin-left: -40px;} 
 .usuario {
-  margin-right: -245px;
-}
-footer {
+margin-left: -35px;}
+footer { 
   width: 100%;
 }
 .menu{
@@ -84,5 +79,11 @@ footer {
   background-color:#fff;
   }
   .container {
-    margin: 60px;
+    margin: 90px;
   }
+ .boton{
+   padding-top: 40px;
+ }
+ .empresa{
+   padding-top: 40px;
+ }
